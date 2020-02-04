@@ -56,4 +56,6 @@ describe('Recurly.js', () => {
       return !!~$(sel.output).getText().indexOf('token received');
     }, 4000);
   });
+
+  
 })
