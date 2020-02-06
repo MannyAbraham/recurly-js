@@ -48,8 +48,7 @@ const staticConfig = {
   coverageReporter: {
     dir : 'build/reports/',
     reporters: [
-      // { type: 'html', subdir : 'coverage' },
-      { type: 'lcovonly', subdir: 'coverage', file: 'lcov.info' }
+      { type: 'html', subdir : 'coverage' }
     ]
   }
 };
